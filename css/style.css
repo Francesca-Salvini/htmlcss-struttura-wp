@@ -42,21 +42,20 @@
     margin-top: 20px;
 }
 
-.container_azure::after {
-    content: "";
-    display: table;
-    clear: both;
+  
 
-}
+
 
 .top {
     height: 60px;
     background-color: #abcfe7;
 }
 
-.col {
-    width: 100%;
-    float: left;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
 }
 
 .col_left, .col_right {
