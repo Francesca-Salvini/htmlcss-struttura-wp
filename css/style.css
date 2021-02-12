@@ -60,20 +60,19 @@
 
 .col_left, .col_right {
     
-    display: inline-block;
     width:  20%; 
     height: 340px ;
     background-color: #abcfe7;
     margin: 10px 0;
-    
+    float: left;
 }
 
 .col_center {
-     display: inline-block;
     width:  56%; 
     height: 340px ;
     background-color: #abcfe7;
     margin: 10px 1.55% 10px 1.55% ;
+    float: left;
 }
 
 /*FINE MAIN*/
