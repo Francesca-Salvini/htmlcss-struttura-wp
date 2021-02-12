@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
+/*COMMON*/
 .wrapper {
     width: 80%;
-    background-color: lightgreen;
+   
     margin: auto;
 }
 
@@ -15,6 +16,7 @@
     margin-top: 20px;
 }
 
+/*HEADER*/
 .container.pink {
 
     height: 80px;
@@ -27,3 +29,63 @@
     height: 320px;
     background-color: #e1d67a;
 }
+
+/*FINE HEADER*/
+
+/*MAIN*/
+
+.container_azure {
+    width: 100%;
+    height: 420px;
+    background-color: #0289fd;
+    
+    margin-top: 20px;
+}
+
+.container_azure::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.top {
+    height: 60px;
+    background-color: #abcfe7;
+}
+
+.col {
+    width: 100%;
+    float: left;
+}
+
+.col_left, .col_right {
+    
+    display: inline-block;
+    width:  20%; 
+    height: 340px ;
+    background-color: #abcfe7;
+    margin: 10px 0;
+    
+}
+
+.col_center {
+     display: inline-block;
+    width:  56%; 
+    height: 340px ;
+    background-color: #abcfe7;
+    margin: 10px 1.55% 10px 1.55% ;
+}
+
+/*FINE MAIN*/
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #881cfe;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*FINE FOOTER*/
